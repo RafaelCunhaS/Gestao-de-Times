@@ -1,18 +1,18 @@
 package com.trybe.gestaotime.daotest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import java.util.ArrayList;
+import java.util.List;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import com.trybe.gestaotime.dao.JogadorDao;
 import com.trybe.gestaotime.dao.TimeDao;
 import com.trybe.gestaotime.dao.TorcedorDao;
 import com.trybe.gestaotime.model.Jogador;
 import com.trybe.gestaotime.model.Time;
 import com.trybe.gestaotime.model.Torcedor;
-import java.util.ArrayList;
-import java.util.List;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.DisplayName;
 
 public class TimeDaoTest {
 
